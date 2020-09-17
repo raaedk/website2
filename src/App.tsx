@@ -13,6 +13,7 @@ import useModal from './hooks/useModal'
 import theme from './theme'
 import Farms from './views/Farms'
 import Home from './views/Home'
+import About from './views/About'
 import Stake from './views/Stake'
 
 const App: React.FC = () => {
@@ -38,8 +39,8 @@ const App: React.FC = () => {
           <Route path="/farms">
             <Farms />
           </Route>
-          <Route path="/staking">
-            <Stake />
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
       </Router>
