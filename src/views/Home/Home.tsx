@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={120} />}
-        title="MasterChef is Ready"
-        subtitle="Stake Uniswap LP tokens to claim your very own yummy SUSHI!"
+        title="lol cringe"
+        subtitle="Stake LP tokens for no reason"
       />
 
       <Container>
@@ -22,8 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: SUSHI-ETH UNI-V2 LP token pool yields TWICE more token
-        rewards per block.
+        🏆<b>Pro Tip</b>: lol tunaswap fking sucks
       </StyledInfo>
       <Spacer size="lg" />
       <div
@@ -31,7 +30,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
+        <Button text="Visit the Pools" to="/farms" variant="secondary" />
       </div>
     </Page>
   )
