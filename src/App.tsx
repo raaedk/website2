@@ -49,11 +49,13 @@ const App: React.FC = () => {
   )
 }
 
+//bsc testnet chainID 97
+//bsc mainnet chainID 56
 const Providers: React.FC = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <UseWalletProvider
-        chainId={1}
+        chainId={97}
         connectors={{
           walletconnect: { rpcUrl: 'https://mainnet.eth.aragon.network/' },
         }}
