@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={120} />}
-        title="lol cringe"
-        subtitle="Stake LP tokens for no reason"
+        title="Wave.Finance"
+        subtitle="Stake Bakeryswap BLP tokens to claim WAVE"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: lol tunaswap fking sucks
+        🏆<b>Pro Tip</b>: Pool liquidity at BakerySwap to get BLP tokens.
       </StyledInfo>
       <Spacer size="lg" />
       <div

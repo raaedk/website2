@@ -16,12 +16,6 @@ const Nav: React.FC = () => {
       >
         Uniswap SUSHI-ETH
       </StyledLink>
-      <StyledLink target="_blank" href="https://discord.gg/hJ2p555">
-        Discord
-      </StyledLink>
-      <StyledLink target="_blank" href="https://github.com/sushiswap">
-        Github
-      </StyledLink>
       <StyledLink target="_blank" href="https://twitter.com/sushiswap">
         Twitter
       </StyledLink>

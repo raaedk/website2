@@ -38,12 +38,14 @@ export const addressMap = {
   // SUSHIYCRV: '0x2C7a51A357d5739C5C74Bf3C96816849d2c9F726',
 }
 
+//generate 100000000000000000000
+
 export const contractAddresses = {
   sushi: {
-    97: '0x68f76c6D9DcbcEe04A577E97584DC536B8CeE175',
+    97: '0x6E235d60688b8f25C3D134D963368924c7320324',
   },
   masterChef: {
-    97: '0x01AA4C05e4c1cc131d75b44642C376cFbACed2DC',
+    97: '0xF447db3FffD15C7F364C4aabd1722b42255747E7',
   },
   weth: {
     97: '0xE8122420C7f006F3F4CDB11149D01AdefB45E2c5',
@@ -85,14 +87,14 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      97: '0x2b8ff854c5e16cf35b9a792390cc3a2a60ec9ba2',
+      97: '0x2AE4ca65e6AB4075A18ac41B1b1C8076cE3e1F8A',
     },
     tokenAddresses: {
-      97: '0x2b8ff854c5e16cf35b9a792390cc3a2a60ec9ba2',
+      97: '0xaAA9bd50E56E408db514cbF199392baD1aE6A8a0',
     },
-    name: 'BNB WAVE',
-    symbol: 'BNB-WAVE BAKERY LP',
-    tokenSymbol: 'BNB',
+    name: 'rUSDT',
+    symbol: 'rUSDT',
+    tokenSymbol: 'rUSDT',
     icon: '🐢',
   },
   // {
