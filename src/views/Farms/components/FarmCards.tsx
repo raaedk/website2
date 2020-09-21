@@ -78,7 +78,7 @@ const FarmCards: React.FC = () => {
         ))
       ) : (
         <StyledLoadingWrapper>
-          <Loader text="Cooking the rice ..." />
+          <Loader text="Cooking..." />
         </StyledLoadingWrapper>
       )}
     </StyledCards>
@@ -128,7 +128,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
 
   return (
     <StyledCardWrapper>
-      {farm.tokenSymbol === 'SUSHI' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'LAKE' && <StyledCardAccent />}
       <Card>
         <CardContent>
           <StyledContent>
@@ -136,7 +136,9 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             <StyledTitle>{farm.name}</StyledTitle>
             <StyledDetails>
               <StyledDetail>Deposit {farm.lpToken.toUpperCase()}</StyledDetail>
-              <StyledDetail>Earn {farm.earnToken.toUpperCase()}</StyledDetail>
+              <StyledDetail>
+                Earn {'LAKE' /*farm.earnToken.toUpperCase() */}
+              </StyledDetail>
             </StyledDetails>
             <Spacer />
             <Button

@@ -42,10 +42,10 @@ export const addressMap = {
 
 export const contractAddresses = {
   sushi: {
-    97: '0x6E235d60688b8f25C3D134D963368924c7320324',
+    97: '0xB926fdA2F1AbEf421a86422B4f8C9Bd159d9FaE1',
   },
   masterChef: {
-    97: '0xF447db3FffD15C7F364C4aabd1722b42255747E7',
+    97: '0x77a087eF83FC95615a6548F525cc134d28A12E1B',
   },
   weth: {
     97: '0xE8122420C7f006F3F4CDB11149D01AdefB45E2c5',
@@ -87,42 +87,42 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      97: '0x2AE4ca65e6AB4075A18ac41B1b1C8076cE3e1F8A',
+      97: '0xBDb1838eA30c3bD105f36372522387d6e1cF2B1f',
     },
     tokenAddresses: {
-      97: '0xaAA9bd50E56E408db514cbF199392baD1aE6A8a0',
+      97: '0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee',
     },
-    name: 'rUSDT',
-    symbol: 'rUSDT',
-    tokenSymbol: 'rUSDT',
+    name: 'bUSD',
+    symbol: 'bUSD',
+    tokenSymbol: 'bUSD',
     icon: '🐢',
   },
-  // {
-  //   pid: 1,
-  //   lpAddresses: {
-  //     1: '0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc',
-  //   },
-  //   tokenAddresses: {
-  //     1: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
-  //   },
-  //   name: 'Circle Snail',
-  //   symbol: 'USDC-ETH UNI-V2 LP',
-  //   tokenSymbol: 'USDC',
-  //   icon: '🐌',
-  // },
-  // {
-  //   pid: 2,
-  //   lpAddresses: {
-  //     1: '0xa478c2975ab1ea89e8196811f51a7b7ade33eb11',
-  //   },
-  //   tokenAddresses: {
-  //     1: '0x6b175474e89094c44da98b954eedeac495271d0f',
-  //   },
-  //   name: 'Donald DAI',
-  //   symbol: 'DAI-ETH UNI-V2 LP',
-  //   tokenSymbol: 'DAI',
-  //   icon: '🦆',
-  // },
+  {
+    pid: 1,
+    lpAddresses: {
+      97: '0x416A206d25d62407554554de13291dAC6A648A7A',
+    },
+    tokenAddresses: {
+      97: '0xd66c6b4f0be8ce5b39d52e0fd1344c389929b378',
+    },
+    name: 'eth pool',
+    symbol: 'ETH',
+    tokenSymbol: 'ETH',
+    icon: '🐌',
+  },
+  {
+    pid: 2,
+    lpAddresses: {
+      97: '0xb8996f031D76Eb27CC485E7Fa761a3B27F4595C1',
+    },
+    tokenAddresses: {
+      97: '0x6ce8da28e2f864420840cf74474eff5fd80e65b8',
+    },
+    name: 'bep-20 BTC',
+    symbol: 'BTC',
+    tokenSymbol: 'BTC',
+    icon: '🦆',
+  },
   // {
   //   pid: 3,
   //   lpAddresses: {
